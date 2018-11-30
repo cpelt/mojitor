@@ -1,0 +1,48 @@
+.vid{
+    height: 812px;
+    background-image: url(./imgs/background.jpg);
+    @media (min-width: 768px){
+    height: 1024px;
+        }
+    &-title{
+        text-align: center;
+        font-family: 'king of pirate';
+        font-size: 58px;
+        font-weight: bold;
+        padding: 15px;
+        @media (min-width: 768px){
+            font-size: 85px;
+            }
+    }
+    &-help{
+        text-align: center;
+        font-family: 'king of pirate';
+        font-size: 35px;
+        font-weight: bold;
+        @media (min-width: 768px){
+            font-size: 45px;
+            }
+    }
+    &-prep{
+        display: flex;
+        width: 375px;
+        height: 312px;
+        margin-top: 30px;
+        margin: 0 auto;
+        padding-top: 20px;
+        @media (min-width: 768px){
+        height: 450px;
+        width: 770px;
+            margin: 0 auto;
+        }
+    }
+    &-havefun{
+        text-align: center;
+        font-family: 'king of pirate';
+        font-size: 59px;
+        font-weight: bold;
+        margin-top: 20px;
+        text-transform: uppercase;
+        padding: 20px;
+    }
+}
